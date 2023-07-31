@@ -5,9 +5,10 @@ st.header("Contact Me")
 
 with st.form(key="email_form"):
     user_email = st.text_input("Enter your email:")
+    subject = st.text_input("Subject:")
     message = st.text_area("Write a message ...")
     message = f"""\
-Subject: New email from: {user_email}
+Subject: {subject}
 
 From: {user_email}
 {message}
