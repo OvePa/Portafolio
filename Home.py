@@ -9,8 +9,8 @@ with col1:
     st.image("images/photo.jpg")
 
 with col2:
-    st.title("Omar Velazquez")
-    content = """ Chalala """
+    st.title("Omar Velazquez Paz")
+    content = """ I am a Python Programmer """
     st.info(content)
 
 content2 = """ 
@@ -18,7 +18,7 @@ Below you can find some of the apps I have built in Python. Feel free to contact
 """
 st.write(content2)
 
-col3, empty_col, col4 = st.columns([1.5,0.5,1.5])
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pd.read_csv("data.csv", sep=";")
 
